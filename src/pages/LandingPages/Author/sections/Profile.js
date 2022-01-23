@@ -73,7 +73,7 @@ function Profile() {
                 Decisions: If you can&apos;t decide, the answer is no. If two equally difficult
                 paths, choose the one more painful in the short term (pain avoidance is creating an
                 illusion of equality). Choose the path that leaves you more equanimous. <br />
-                <MKTypography
+                {/* <MKTypography
                   component="a"
                   href="#"
                   variant="body1"
@@ -95,8 +95,8 @@ function Profile() {
                     },
                   }}
                 >
-                  More about me <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
-                </MKTypography>
+                  {/* More about me <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon> */}
+                {/* </MKTypography> */}
               </MKTypography>
             </Grid>
           </Grid>
