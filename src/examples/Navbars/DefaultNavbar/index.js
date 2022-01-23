@@ -551,7 +551,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
 
 // Setting default values for the props of DefaultNavbar
 DefaultNavbar.defaultProps = {
-  brand: "Purdue Constellations",
+  brand: "Boiler Up The Stars!!",
   transparent: false,
   light: false,
   action: false,
