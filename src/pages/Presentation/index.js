@@ -14,16 +14,17 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-/*
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
+/*
 import Card from "@mui/material/Card";
 */
 
 // Material Kit 2 React components
-/*
+
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
+/*
 import MKSocialButton from "components/MKSocialButton";
 */
 
@@ -55,17 +56,15 @@ import footerRoutes from "footer.routes";
 */
 
 // Images
-/*
-import bgImage from "assets/images/bg-presentation.jpg";
-*/
+import bgImage from "assets/images/Purdue_Nightsky.jpg";
 
 function Presentation() {
   return (
     <>
       <DefaultNavbar routes={routes} sticky />
-      {/*
+
       <MKBox
-        minHeight="75vh"
+        minHeight="100vh"
         width="100%"
         sx={{
           backgroundImage: `url(${bgImage})`,
@@ -88,8 +87,9 @@ function Presentation() {
                 },
               })}
             >
-              Material Kit 2 React{" "}
+              Explore The Night Sky{" "}
             </MKTypography>
+            {/*
             <MKTypography
               variant="body1"
               color="white"
@@ -99,10 +99,11 @@ function Presentation() {
             >
               Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
               developers around the world.
-            </MKTypography>
+          </MKTypography> */}
           </Grid>
         </Container>
       </MKBox>
+      {/*
       <Card
         sx={{
           p: 2,
