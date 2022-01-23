@@ -46,7 +46,7 @@ function Places() {
               description="Beautiful image of the sky at Memorial Mall, taken by Trevor Mahlmann"
               action={{
                 type: "internal",
-                route: "pages/LandingPages/ContactUs/Posts",
+                route: "/pages/landing-pages/author",
                 color: "info",
                 label: "Submit your own image",
               }}
@@ -59,7 +59,7 @@ function Places() {
               description="taken by Dave Wegiel Photography"
               action={{
                 type: "internal",
-                route: "pages/LandingPages/ContactUs/Posts",
+                route: "/pages/landing-pages/author",
                 color: "info",
                 label: "Submit your own image",
               }}
@@ -72,7 +72,7 @@ function Places() {
               description="A beautiful timelapse of the sky by Purdue's famous engineering fountain, taken by Trevor Mahlmann."
               action={{
                 type: "internal",
-                route: "pages/LandingPages/ContactUs/Posts",
+                route: "/pages/landing-pages/author",
                 color: "info",
                 label: "Submit your own image",
               }}
