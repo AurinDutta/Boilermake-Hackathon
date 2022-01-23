@@ -70,7 +70,7 @@ function Contact() {
                       Suggestions or Bugs?
                     </MKTypography>
                     <MKTypography variant="body2" color="white" opacity={0.8} mb={3}>
-                      Fill out a form and we will read them within 24 hours..
+                      Fill out a form and we will read them within 24 hours.
                     </MKTypography>
                     <MKBox display="flex" p={1}>
                       <MKTypography variant="button" color="white">
