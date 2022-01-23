@@ -67,7 +67,7 @@ function Contact() {
                 >
                   <MKBox py={6} pr={6} pl={{ xs: 6, sm: 12 }} my="auto">
                     <MKTypography variant="h3" color="blue" mb={1}>
-                      Suggestions or Bugs?
+                      Want to submit an image?
                     </MKTypography>
                     <MKTypography variant="body2" color="white" opacity={0.8} mb={3}>
                       Fill out a form and we will read them within 24 hours.
@@ -138,7 +138,7 @@ function Contact() {
                 <MKBox component="form" p={2} method="post">
                   <MKBox px={3} py={{ xs: 2, sm: 6 }}>
                     <MKTypography variant="h2" mb={1}>
-                      Comments, Questions, or Concerns?
+                      Submit an image and have it featured!
                     </MKTypography>
                     <MKTypography variant="body1" color="text" mb={2}>
                       Let us know by filling out this form.
@@ -158,8 +158,8 @@ function Contact() {
                       <Grid item xs={12} pr={1} mb={6}>
                         <MKInput
                           variant="standard"
-                          label="Subject"
-                          placeholder="e.g. this constellation is incorrect"
+                          label="Image"
+                          placeholder="Link to image."
                           InputLabelProps={{ shrink: true }}
                           fullWidth
                         />
@@ -167,7 +167,7 @@ function Contact() {
                       <Grid item xs={12} pr={1} mb={6}>
                         <MKInput
                           variant="standard"
-                          label="Your message"
+                          label="Caption for image."
                           placeholder="Be as brief or as long as you would like"
                           InputLabelProps={{ shrink: true }}
                           fullWidth

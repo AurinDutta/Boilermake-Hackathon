@@ -93,7 +93,8 @@ function Profile() {
                 excessive amount of artificial light at night), many people are unable to see the
                 stars in the sky, let alone constellations. This is especially personal to us, as we
                 are from the west and east coast. Now that we can see these stars, we want to help
-                others see and recognize the beautiful night sky.
+                others see and recognize the beautiful night sky. Inspired by Neil Armstrong&apos;s
+                voyage to the moon.
                 <br />
                 {/* <MKTypography
                   component="a"
