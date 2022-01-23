@@ -152,7 +152,7 @@ function Contact() {
                           label="My name is"
                           placeholder="Full Name"
                           InputLabelProps={{ shrink: true }}
-                          fullWidth 
+                          fullWidth
                         />
                       </Grid>
                       <Grid item xs={12} pr={1} mb={6}>
