@@ -24,7 +24,7 @@ import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
 // Images
-import bgImage from "assets/images/examples/blog2.jpg";
+import bgImage from "assets/images/bigdipper.jpg";
 
 function Contact() {
   return (
@@ -66,7 +66,7 @@ function Contact() {
                   height="100%"
                 >
                   <MKBox py={6} pr={6} pl={{ xs: 6, sm: 12 }} my="auto">
-                    <MKTypography variant="h3" color="white" mb={1}>
+                    <MKTypography variant="h3" color="blue" mb={1}>
                       Suggestions or Bugs?
                     </MKTypography>
                     <MKTypography variant="body2" color="white" opacity={0.8} mb={3}>

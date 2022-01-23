@@ -26,13 +26,11 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import Profile from "pages/LandingPages/Author/sections/Profile";
 // import Posts from "pages/LandingPages/Author/sections/Posts";
 import Contact from "pages/LandingPages/Author/sections/Contact";
-import Footer from "pages/LandingPages/Author/sections/Footer";
-
 // Routes
 import routes from "routes";
 
 // Images
-import bgImage from "assets/images/city-profile.jpg";
+import bgImage from "assets/images/nightsky.jpg";
 
 function Author() {
   return (
@@ -48,7 +46,15 @@ function Author() {
         transparent
         light
       />
-      <MKBox bgColor="white">
+      <MKBox
+        sx={{
+          backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
+            `${linearGradient(
+              rgba(gradients.dark.main, 0.8),
+              rgba(gradients.dark.state, 0.8)
+            )}, url(${bgImage})`,
+        }}
+      >
         <MKBox
           minHeight="25rem"
           width="100%"
@@ -79,7 +85,7 @@ function Author() {
           {/* <Posts /> */}
         </Card>
         <Contact />
-        <Footer />
+        {/* <Footer /> */}
       </MKBox>
     </>
   );
