@@ -70,13 +70,13 @@ import Typography from "layouts/sections/elements/typography";
 
 const routes = [
   {
-    name: "Main menu",
+    name: "Menu",
     icon: <Icon>dashboard</Icon>,
     columns: 1,
     rowsPerColumn: 2,
     collapse: [
       {
-        name: "Constellations List",
+        name: "Sections",
         collapse: [
           {
             name: "Popular Constellations",
@@ -84,12 +84,12 @@ const routes = [
             component: <AboutUs />,
           },
           {
-            name: "Why can we see stars in West Lafayette but not in other cities?",
+            name: "Constellations in West Lafayette",
             route: "/pages/landing-pages/contact-us",
             component: <ContactUs />,
           },
           {
-            name: "Constellations in West Lafayette",
+            name: "About this website",
             route: "/pages/landing-pages/author",
             component: <Author />,
           },
